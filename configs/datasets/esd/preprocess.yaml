@@ -14,7 +14,7 @@ mel_vmin: -9.0314
 mel_vmax: 2.1758
 
 vocoder: BigVGAN
-vocoder_ckpt: checkpoints/bigvgan_16k/g_05050000
+vocoder_ckpt: /kaggle/input/bigvgan_16k_checkpoint/g_05050000
 vocoder_cls: models.vocoder.bigvgan.BigVGAN
 vocoder_config: configs/models/vocoder/bigvgan16k.yaml
 
