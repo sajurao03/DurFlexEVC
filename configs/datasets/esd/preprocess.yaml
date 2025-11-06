@@ -1,7 +1,7 @@
-work_dir: "/home2/soujanya.rao/DurFlexEVC/checkpoints"
-raw_data_dir: '/home2/soujanya.rao/DurFlexEVC/dataset/Emotion_Speech_Dataset'
-processed_data_dir: '/home2/soujanya.rao/DurFlexEVC/dataset/processed/durflex'
-binary_data_dir: '/home2/soujanya.rao/DurFlexEVC/dataset/binary/durflex'
+work_dir: "/kaggle/working/DurFlexEVC/checkpoints"
+raw_data_dir: '/kaggle/input/speechh/dataset/Emotion_Speech_Dataset'
+processed_data_dir: '/kaggle/input/speechh/dataset/processed/durflex'
+binary_data_dir: '/kaggle/input/speechh/dataset/binary/durflex'
 preprocess_cls: configs.datasets.esd.preprocess.ESDPreprocess
 
 binarization_args:
@@ -30,7 +30,7 @@ fmax: 8000 # To be increased/reduced depending on data.
 f0_min: 80
 f0_max: 800
 
-kmeans_model_path: "/home2/soujanya.rao/DurFlexEVC/dataset/binary/durflex/km200.bin"
+kmeans_model_path: "/kaggle/input/speechh/dataset/binary/durflex/km200.bin"
 hubert_model: "facebook/hubert-base-ls960"
 
 use_spk_encoder: false
